@@ -1,0 +1,30 @@
+body {
+    /* margin: 0; */
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    background-color:#2B70FE;
+  }
+
+.container-hero
+{
+    width: 100vw;
+    height: 700px;
+    /* background-color: #2B70FE; */
+    /* background-image:  */
+    background-image: url('../Images/MacBookAir.jpg');
+    background-attachment: fixed;
+    background-size: cover; 
+}
+.under-hero
+{
+  position: relative;
+  /* margin-left: 80px; */
+}
+
+.container-upper
+{
+  height: 700px;
+  width: 100vw;
+  box-sizing: border-box;
+  /* border: 3px solid black;; */
+}

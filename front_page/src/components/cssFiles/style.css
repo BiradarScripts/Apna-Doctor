@@ -1,0 +1,13 @@
+.text
+{
+    color:yellow
+}
+.fluid
+{
+    background-color:black
+}
+.btn-flex
+{
+    display: flex;
+    justify-content: space-between;
+}
