@@ -17,3 +17,8 @@ To run the Doctor-Patient Chatbot locally, follow these steps:
 
 ## Usage
 Once the application is running, users (patients) can interact with the chatbot by typing messages in the provided interface. The chatbot will respond with relevant information based on the conversation flow.
+
+## Technologies Used
+- *Programming Languages:* Python, JavaScript
+- *Frameworks/Libraries:* Flask, Node.js
+- *APIs:* Replicate
