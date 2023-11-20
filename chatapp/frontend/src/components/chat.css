@@ -1,0 +1,123 @@
+body{
+    justify-content: center;
+    background: url('./bg.jpg')no-repeat;
+    background-size: cover;
+    height:max-content;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.chatbox{
+    z-index: 1;
+    margin-left: 20%;
+    margin-top: 10%;
+    position: relative;
+    width: 50%;
+    min-height: 450px;
+    background:transparent;
+    border: 2px solid rgba(255, 255, 255, .5);
+    border-radius: 20px;
+    backdrop-filter: blur(40px);
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+
+}
+
+.input{
+    color: black;
+    z-index: 1;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    margin-left: -10%;
+    width: 47%;
+    height: 4vh;
+    border-radius: 20px;
+    background:rgba(243, 231, 231, 0.5);
+    text-overflow: ellipsis;
+    }
+
+.button{
+    width: 10%;
+    border-radius: 20px;
+}
+
+.text{
+    z-index: 1;
+    min-width: 20%;
+    max-width: 100%;
+    min-height: 35px;
+    border-radius: 20px;
+    border: 2px solid rgba(58, 57, 57, 0.5);
+    background:rgba(83, 83, 83, 0.5);
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 1%;
+    /* display: flex; */
+    text-align:center;
+    text-overflow:ellipsis;
+    justify-content: flex-end;
+}
+
+.bg-text{
+    min-width: 20%;
+    max-width: 100%;
+    min-height: 35px;
+    /* background:rgba(83, 83, 83, 0.5); */
+    margin-left: 2%;
+    margin-top: 1%;
+    display: flex;
+    /* text-align:center; */
+    /* padding-left: 30vh; */
+    /* position: relative; */
+    justify-content: flex-end;
+}
+
+#you.bg-text{
+    justify-content: flex-start;
+}
+
+#other.bg-text{
+    justify-content: flex-end;
+}
+
+.room{
+    border: 2px solid rgba(5, 5, 5, 0.5);
+    background:transparent;
+    width: 40%;
+    min-height: 30%;
+    position:absolute;
+    left: 30%;
+    top:35%;
+    display: grid;
+    justify-content: center;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+}
+
+button{
+    border: 2px solid rgba(237, 175, 6, 0.5);
+    border-radius: 10px;
+    background:rgba(246, 149, 4, 0.5);
+    width: 95px;
+    color: azure;
+}
+
+input{
+    border: 2px solid rgb(52, 51, 51);
+    border-radius: 5px;
+    background-color: antiquewhite;
+}
+::webkit-input-placeholder {
+    color: blue;
+    }
+    /* :-ms-input-placeholder {
+    color: blue;
+    }
+    ::-moz-placeholder {
+    color: blue;
+    opacity: 1;
+    }
+    :-moz-placeholder {
+    color: red;
+    opacity: 1
+    } */
