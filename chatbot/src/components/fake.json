@@ -1,0 +1,9 @@
+{
+"users": [
+        {
+        "id": 1,
+        "doctor": "Orthopedic",
+        "pain_part": ["Bone","Muscle_Ligaments"]
+        }
+    ]
+}
